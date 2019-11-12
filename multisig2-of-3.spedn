@@ -1,0 +1,11 @@
+contract Multisig(Ripemd160 protegePkh, Ripemd160 mecenasPkh, Ripemd160 escrowPkh) {
+    challenge accesss(PubKey pk1, PubKey pk2, Sig sig1, Sig sig2) {
+        Ripemd160 hash1 = hash160(pk1);
+        Ripemd160 hash2 = hash160(pk2);
+        verify (hash1 == protegePkh) || (hash1 == mecenasPkh);
+        verify (hash2 == escrowPkh) || (hash2 == mecenasPkh); 
+        verify hash1 != hash2;
+        verify checkSig(sig1,pk1);
+        verify checkSig(sig2,pk2);
+    }
+}
