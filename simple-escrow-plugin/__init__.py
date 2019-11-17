@@ -1,5 +1,5 @@
 from electroncash.i18n import _
 
-fullname = 'last-will-plugin'
-description = _('Plugin last-will-plugin')
+fullname = 'simple-escrow-plugin'
+description = _('Use multisignature with a regular wallet ')
 available_for = ['qt']
