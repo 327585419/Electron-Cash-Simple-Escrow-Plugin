@@ -1,9 +1,9 @@
 {
     "display_name": "Simple Escrow Plugin",
-    "version": "0.2",
+    "version": "0.3",
     "description": "Use multisignature with a regular wallet",
     "project_url": "https://github.com/KarolTrzeszczkowski/Electron-Cash-Simple-Escrow-Plugin/",
-    "minimum_ec_version": "4.0",
+    "minimum_ec_version": "4.0.11",
     "package_name": "simple-escrow-plugin",
     "available_for": [
         "qt"
