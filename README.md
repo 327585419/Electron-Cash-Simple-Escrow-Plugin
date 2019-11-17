@@ -1,10 +1,8 @@
 # Simple Escrow Plugin
-Mecenas was created as **a solution** for bitcoin **patronate** exit scam risk. The plugin create and manage a contract that shifts the responsibility for making the transaction from the sender to the receiver with time and value restriction.
-
-
+The plugin that lets you make a simple escrow smart contract that only normal "bitcoincash:q..." addresses and no awkward xpub exchange ritual.
 ## Contact the author
 
-With any problems contact me on telegram: **@licho92karol**, reddit: **u/Licho92** e-mail: **name.lastname@gmail.com**. If you wish to contact me via Signal or whatsapp, ask for my phone number on any of this channels.
+With any problems contact me on telegram: **@licho92karol**, reddit: **u/Licho92** e-mail: **name.lastname@gmail.com**, twitter: **@KTrzeszczkowski**. If you wish to contact me via Signal or whatsapp, ask for my phone number on any of this channels.
 
 ## Mecenate and donations
 
