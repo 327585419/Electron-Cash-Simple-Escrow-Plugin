@@ -22,7 +22,7 @@ With any problems contact me on telegram: **@licho92karol**, reddit: **u/Licho92
 
 I want to give credit to **im_uname#102** for the idea of making this plugin, testing it and supporting its creation from his own poket. Also big thank you to Emergent Reasons for help with testing it at the cost of his sleeping time.
 
-I want to acknowledgments Huck Finne for his continuaous support of my projects with recurring donations Mecenate.
+I want to acknowledge Huck Finne for his continuaous support of my projects with recurring donations Mecenate.
 
 ## Mecenate and donations
 
