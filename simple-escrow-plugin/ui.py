@@ -205,6 +205,12 @@ class Create(QDialog, MessageBoxMixin):
         if not yorn:
             return
         outputs = self.build_otputs()
+        receiver_is_mine = self.wallet.is_mine(self.contract.addresses[0])
+        escrow_is_mine = self.wallet.is_mine(self.contract.addresses[2])
+        if receiver_is_mine and escrow_is_mine:
+            self.show_error(
+                "All three participants are in your wallet. Such contract will be impossible to terminate. Aborting.")
+            return
         try:
             tx = self.wallet.mktx(outputs, self.password, self.config,
                                   domain=self.fund_domain, change_addr=self.fund_change_address)
@@ -401,7 +407,7 @@ class Manage(QDialog, MessageBoxMixin):
         tx.raw = tx.serialize()
         print("ScriptPK", self.manager.script_pub_key)
         self.main_window.show_message("Double click to select and send this to another party:\n\n" + tx.raw)
-
+        self.update_buttons()
         # show_transaction(tx, self.main_window, "End Sender Contract", prompt_if_unsaved=True)
 
 
