@@ -9,7 +9,7 @@ Download a zip file from [releases](https://github.com/KarolTrzeszczkowski/Elect
 
 ### Create escrow contract
 
-In **Simple Escrow Plugin** tab click **Create new Escrow contract** and paste *receiver address* and *arbiter address*. Put amount and click create contract. All participants will be notified by transaction of 546 satoshi. Now the contract is created and it's 
+In **Simple Escrow Plugin** tab click **Create new Escrow contract** and paste *receiver address* and *arbiter address*. Put amount and click create contract. All participants will be notified by transaction of 546 satoshi. Now the contract is created and it's pinned to the wallets of all participants.
 
 ### Managing the contract
 
